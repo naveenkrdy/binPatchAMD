@@ -992,14 +992,14 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>lapic_init - remove version check and panic </string>
+				<string>lapic_init - remove version check and panic</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
-				AAAAg/gTdl4=
+				JfwAAACD+BM=
 				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
@@ -1007,7 +1007,6 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data>
-				////////AAA=
 				</data>
 				<key>MaxKernel</key>
 				<string>20.99.99</string>
@@ -1015,7 +1014,7 @@
 				<string>19.0.0</string>
 				<key>Replace</key>
 				<data>
-				AAAADx9EAAA=
+				JfwAAAAPHwA=
 				</data>
 				<key>ReplaceMask</key>
 				<data>
