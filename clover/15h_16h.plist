@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key># Channel</key>
-	<string>Release</string>
+	<string>beta</string>
 	<key># Credits</key>
-	<string>Patches by @algrey and manintained by @naveenkrdy</string>
+	<string>patches by @algrey and manintained by @naveenkrdy</string>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>KernelToPatch</key>
@@ -30,7 +30,7 @@
 				<data>
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				Dx+AAAAAAA==
@@ -59,7 +59,7 @@
 				<data>
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Procedure</key>
 				<string>_cpu_topology_sort</string>
 				<key>Replace</key>
@@ -71,7 +71,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_cache_info - cpuid 0x8000001D instead 0 - 10.15</string>
+				<string>cpuid_set_cache_info - cpuid 0x8000001D instead 0</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -90,7 +90,7 @@
 				<data>
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				uB0AAIAx2zHJMdIPokGJxg8fQADr
@@ -144,7 +144,7 @@
 				<data>
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				uB0AAIBEifFEiQ==
@@ -173,7 +173,7 @@
 				<data>
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				Dx8A6wY=
@@ -183,27 +183,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>skip cpuid_cores_per_package test -10.15</string>
+				<string>skip cpuid_cores_per_package test</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				gz0AAAAAAA8AAAAAAItdvA==
+				gz0AAAAAAA8AAAAAAIsAvA==
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MaskFind</key>
 				<data>
-				//8AAAD///8AAAAA/////w==
+				//8AAAD///8AAAAA//8A/w==
 				</data>
 				<key>MaskReplace</key>
 				<data>
 				AAAAAAAADwAAAAAAAAAAAA==
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAQAAAAAAAAAAAA==
@@ -255,7 +255,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				Zg8fhAAAAAAAZpA=
@@ -277,7 +277,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				uroAAABmkA==
@@ -299,7 +299,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				sgFmDx+EAAAAAABmkA==
@@ -321,7 +321,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				AAAPgg==
@@ -343,7 +343,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				QXV0aGVudGljQU1EAA==
@@ -369,7 +369,7 @@
 				/////wAAAP///wA=
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				u7xP6njpXQAAAJA=
@@ -379,7 +379,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - jmp to calculations and set cpuid_cores_per_package - 10.15</string>
+				<string>cpuid_set_info - jmp to calculations and set cpuid_cores_per_package</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -399,7 +399,7 @@
 				//8AAAAAAP///wAAAAD/////////
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x,10.16.x</string>
 				<key>Procedure</key>
 				<string>_cpuid_set_info</string>
 				<key>Replace</key>
@@ -411,7 +411,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and threads calculations - 10.15</string>
+				<string>cpuid_set_info - cores and threads calculations</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -424,7 +424,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x,10.16.x</string>
 				<key>Procedure</key>
 				<string>_cpuid_set_info</string>
 				<key>Replace</key>
@@ -437,7 +437,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 1 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 1</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -459,7 +459,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 1 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 1</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -509,7 +509,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 3 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 3</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -537,7 +537,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 3 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 3</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -561,7 +561,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 4 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 4</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -593,7 +593,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 4 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 4</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -625,7 +625,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>i386_init - remove rdmsr (x3)</string>
+				<string>i386_init - remove rdmsr</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Disabled</key>
@@ -638,7 +638,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				Zg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAA
@@ -690,7 +690,7 @@
 				/////////wD///8=
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				ZmZmDx+EAAAAAAA=
@@ -723,7 +723,7 @@
 				/w==
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				uXEAAcAPMonASInBSMHpBoPgP0iDwBCA4QdI0+hI0ehm
@@ -746,7 +746,7 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x,10.16.x</string>
 				<key>Procedure</key>
 				<string>_tsc_init</string>
 				<key>Replace</key>
@@ -758,22 +758,26 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>lapic_init - remove version check and panic - 10.15</string>
+				<string>lapic_init - remove version check and panic</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g/gTdl4=
+				AAAAg/gTdl4=
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>MaskFind</key>
+				<data>
+				////////AAA=
+				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x,10.16.x</string>
 				<key>Replace</key>
 				<data>
-				Dx9EAAA=
+				AAAADx9EAAA=
 				</data>
 				<key>Skip</key>
 				<integer>0</integer>
@@ -802,7 +806,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>lapic_interrupt - skip checks and prevent panic - 10.15</string>
+				<string>lapic_interrupt - skip checks and prevent panic</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Disabled</key>
@@ -818,7 +822,7 @@
 				//8AAAD/////
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.x ,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				6zkPH4AAAAAA
@@ -872,7 +876,7 @@
 				////////D////////////////w==
 				</data>
 				<key>MatchOS</key>
-				<string>10.13.x,10.14.x,10.15.x</string>
+				<string>10.13.x,10.14.x,10.15.x ,10.16.x</string>
 				<key>Replace</key>
 				<data>
 				uXcCAAC4BgEHALoGAQcADx9AAA==

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key># Channel</key>
-	<string>release</string>
+	<string>beta</string>
 	<key># Credits</key>
 	<string>patches by @algrey and manintained by @naveenkrdy</string>
 	<key>Kernel</key>
@@ -31,7 +31,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -66,7 +66,7 @@
 				/wAA//8=
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -83,7 +83,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>cpuid_set_cache_info - cpuid 0x8000001D instead 0 - 10.15</string>
+				<string>cpuid_set_cache_info - cpuid 0x8000001D instead 0</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -101,7 +101,7 @@
 				/////////////////wAAAAAA////
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
@@ -170,7 +170,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -205,7 +205,7 @@
 				//D///A=
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -222,14 +222,14 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>skip cpuid_cores_per_package test -10.15</string>
+				<string>skip cpuid_cores_per_package test</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
-				gz0AAAAAAA8AAAAAAItdvA==
+				gz0AAAAAAA8AAAAAAIsAvA==
 				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
@@ -237,10 +237,10 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data>
-				//8AAAD///8AAAAA/////w==
+				//8AAAD///8AAAAA//8A/w==
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
@@ -311,7 +311,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -345,7 +345,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -379,7 +379,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -413,7 +413,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -447,7 +447,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -482,7 +482,7 @@
 				/////wAAAP///wA=
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -499,7 +499,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - jmp to calculations and set cpuid_cores_per_package - 10.15</string>
+				<string>cpuid_set_info - jmp to calculations and set cpuid_cores_per_package </string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -517,7 +517,7 @@
 				////AAAAAP///wAAAAD///8AAAAA
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
@@ -535,7 +535,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and threads calculations - 10.15</string>
+				<string>cpuid_set_info - cores and threads calculations</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -553,7 +553,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
@@ -571,7 +571,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 1 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 1</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -605,7 +605,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 1 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 1</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -674,7 +674,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 3 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 3</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -709,7 +709,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 3 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 3</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -743,7 +743,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 4 - 10.13</string>
+				<string>cpuid_set_info - cores and logicals count - part 4</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -779,7 +779,7 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>cpuid_set_info - cores and logicals count - part 4 - 10.14</string>
+				<string>cpuid_set_info - cores and logicals count - part 4</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -815,7 +815,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>i386_init - remove rdmsr (x3)</string>
+				<string>i386_init - remove rdmsr</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -833,7 +833,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -903,7 +903,7 @@
 				/////////wD///8=
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -940,7 +940,7 @@
 				/w==
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -975,7 +975,7 @@
 				<data>
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -992,14 +992,14 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>lapic_init - remove version check and panic - 10.15</string>
+				<string>lapic_init - remove version check and panic </string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>
-				g/gTdl4=
+				AAAAg/gTdl4=
 				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
@@ -1007,14 +1007,15 @@
 				<integer>0</integer>
 				<key>Mask</key>
 				<data>
+				////////AAA=
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
 				<data>
-				Dx9EAAA=
+				AAAADx9EAAA=
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -1060,7 +1061,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>lapic_interrupt - skip checks and prevent panic - 10.15</string>
+				<string>lapic_interrupt - skip checks and prevent panic</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -1078,7 +1079,7 @@
 				//8AAAD/////
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
@@ -1148,7 +1149,7 @@
 				////////D////////////////w==
 				</data>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
