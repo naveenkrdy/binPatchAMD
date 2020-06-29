@@ -29,6 +29,8 @@ Kernel binary patches to support AMD CPU on macOS
 
 - Apple Hypervisor framework of macOS doesn't support AMD CPU, so any app that likely needs it will not work (eg. VMware Fusion, Parallels Desktop, Docker for mac). As an alternative use virtualbox.
 
+- Adobe apps for mac crashes due to lack of intel_fast_mem* instruction sets on AMD CPU. To fix that follow the guide posted [here](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd).
+
 ### Credits
 
 - [Apple](https://opensource.apple.com/) for opensource xnu
