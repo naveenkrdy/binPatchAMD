@@ -16,14 +16,19 @@ Kernel binary patches to support AMD CPU on macOS
 - Mojave (10.14.x)
 - Catalina (10.15.x)
 
+
+### Supported Beta macOS
+
+- Big Sur (11.0 / 10.16.x)
+
+> Patches for beta macOS versions can be found [here](https://github.com/naveenkrdy/binPatchAMD/tree/beta).
+
 ### Supported bootloaders
 
 - [Opencore](https://github.com/acidanthera/OpenCorePkg) (Recommended)
 - [Clover](https://github.com/CloverHackyColor/CloverBootloader)
 
 ### Notes
-
-- Patches for beta macOS versions can be found [here](https://github.com/naveenkrdy/binPatchAMD/tree/beta)
 
 - Due to lack of required x86 instruction sets (SYSENTER / SYSEXIT) on AMD processors there is no 32-bit support and since macos Catalina (10.15.x), apple has anyway moved away from 32 bit completely. But if anyone still intrested in implementing 32-bit Opcode emulator through a kext for AMD on prior macOS versions, they can look [here](https://www.insanelymac.com/forum/topic/337075-new-opemu-supporting-fully-till-sse41/) and [here](https://www.insanelymac.com/forum/topic/329704-opcode-emulator-opemu-plug-in-project/).
 
